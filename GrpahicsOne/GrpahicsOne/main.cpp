@@ -1,5 +1,4 @@
 /* Este programa dibuja una "Tetera", este objeto esta definido
- * en GLUT, se crea una fuente de luz, y un material */
 * en GLUT, se crea una fuente de luz, y un material */
 /***************Avila Armenta Fernando Ivan**************************/
 //Incluimos las librerias
@@ -141,8 +140,8 @@ void reshape(int width, int height)   // Creamos funcion Reshape
 	glLoadIdentity();
 
 	// Ortogonal
-	glOrtho(-10, 10, -10, 10, 0.1, 2);//CONFIGURACIï¿½N DEL PUERTO DE VISTA 
-									  //Lï¿½mite en el eje vertical, eje horizontal, eje profundidad
+	glOrtho(-10, 10, -10, 10, 0.1, 2);//CONFIGURACIÓN DEL PUERTO DE VISTA 
+									  //Límite en el eje vertical, eje horizontal, eje profundidad
 
 	glMatrixMode(GL_MODELVIEW);							// Seleccionamos Modelview Matrix
 	glLoadIdentity();									//Matriz identidad para no modificar nada de lo anterior
@@ -167,13 +166,13 @@ int main(int argc, char **argv)
 {
 	glutInit(&argc, argv); // Inicializamos OpenGL
 	glutInitDisplayMode(GLUT_RGBA | GLUT_SINGLE); // Display Mode (Clores RGB y alpha | Buffer Sencillo )
-	glutInitWindowSize(500, 500);	// Tamaï¿½o de la Ventana
-	glutInitWindowPosition(0, 0);	//Posicion de la Ventana
+	glutInitWindowSize(500, 500);	// Tamaño de la Ventana
+	glutInitWindowPosition(100, 100);	//Posicion de la Ventana
 	glutCreateWindow("Practica 2"); // Nombre de la Ventana
 	InitGL();						// Parametros iniciales de la aplicacion
-	glutDisplayFunc(display);  //Indicamos a Glut funciï¿½n de dibujo
-	glutReshapeFunc(reshape);	//Indicamos a Glut funciï¿½n en caso de cambio de tamano
-	glutKeyboardFunc(keyboard);	//Indicamos a Glut funciï¿½n de manejo de teclado
+	glutDisplayFunc(display);  //Indicamos a Glut función de dibujo
+	glutReshapeFunc(reshape);	//Indicamos a Glut función en caso de cambio de tamano
+	glutKeyboardFunc(keyboard);	//Indicamos a Glut función de manejo de teclado
 	glutMainLoop();          // 
 
 							 // ANSI C requiere que main retorne un valor entero.

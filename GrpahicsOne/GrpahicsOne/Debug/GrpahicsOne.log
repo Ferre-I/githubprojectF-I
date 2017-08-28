@@ -1,2 +1,1 @@
-﻿  GrpahicsOne.vcxproj -> C:\Users\Ferre\Mis archivos\Mi Licenciatura\Computación Gráfica\Labs\githubprojectF-I\GrpahicsOne\Debug\GrpahicsOne.exe
-  GrpahicsOne.vcxproj -> C:\Users\Ferre\Mis archivos\Mi Licenciatura\Computación Gráfica\Labs\githubprojectF-I\GrpahicsOne\Debug\GrpahicsOne.pdb (Full PDB)
+﻿LINK : fatal error LNK1104: no se puede abrir el archivo 'C:\Users\Ferre\Mis archivos\Mi Licenciatura\Computación Gráfica\Labs\githubprojectF-I\GrpahicsOne\Debug\GrpahicsOne.exe'
